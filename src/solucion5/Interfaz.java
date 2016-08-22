@@ -115,7 +115,7 @@ public class Interfaz extends javax.swing.JFrame {
     String res1,res2,res3,res4,res5;
     
      if(txtsueldo.getText().trim().isEmpty()){
-         JOptionPane.showMessageDialog(this,"Digite la cantidad invertida por inversionista  tres","Error", JOptionPane.ERROR_MESSAGE);
+         JOptionPane.showMessageDialog(this,"Digite sueldo","Error", JOptionPane.ERROR_MESSAGE);
          txtsueldo.requestFocusInWindow();
      }else{
     
